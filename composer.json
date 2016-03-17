@@ -1,0 +1,23 @@
+{
+    "name": "sham/demo-package",
+    "type": "library",
+    "description": "descripción del paquete de ejemplo",
+    "keywords": ["package", "demo", "utilsall"],
+    "homepage": "https://github.com/shamFactory/demo-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Hernandez",
+            "email": "michael.hernandez.4790@gmail.com",
+            "homepage": "https://pe.linkedin.com/in/michael-hernandez-salas-0536629a"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DemoPackage\\": "src/"
+        }
+    }
+}
